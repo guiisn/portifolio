@@ -1,0 +1,43 @@
+#header-menu {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 4%;
+    left: 0;
+}
+
+#header-menu ul {
+    background-color: rgb(185, 185, 185);
+}
+
+#header-menu ul li {
+    display: inline-block;
+    font-family: IBM Plex Sans;
+    font-size: 1.25rem;
+}
+
+#header-menu ul li a {
+    color: black;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#header-menu ul li a:hover {
+    background-color: #04d361;
+    border-radius: 3px;
+
+    /* #9466ff
+    #04d361 */
+}
+
+
+@media(max-width: 764px) {
+    #header-menu .checkbtn {
+        display: none;
+    }
+    
+    #header-menu ul {
+        display: none;
+    }
+} 

@@ -1,0 +1,52 @@
+#especialidades {
+    left: 0;
+}
+
+#especialidades h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    text-align: center;
+    
+    color: #fff;
+    font-family: "Poppins";
+}
+
+.tools-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.tools-container img {
+    width: calc(( 1vw * 25 ));
+    padding: 5px;
+    transition: all .2s;
+}
+
+img.flutter {
+    opacity: .5;
+}
+
+.tools-container img:hover {
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+@media(max-width: 640px) {
+    #especialidades h2 {
+        font-size: 1rem;
+    }
+
+    .tools-container img {
+        width: calc(( 1vw * 25 ));
+    }
+}
+
+.projects-landing {
+    width: 100%;
+    background: url("https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+

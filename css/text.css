@@ -47,6 +47,14 @@
     background-color: #9466ff;
 }
 
+#github {
+    background-color: #04d361;
+}
+
+#github:hover {
+    background-color: #04a54d;
+}
+
 .button button:hover {
     background-color: #593d9b;
 }
